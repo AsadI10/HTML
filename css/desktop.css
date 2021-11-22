@@ -51,3 +51,15 @@ header {
   height: 300px;
   padding-left: none;
 }
+.fs-display {
+  padding-top: 20;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color-adjust: #000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: -20px;
+}
+p {
+}
