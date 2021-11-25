@@ -10,6 +10,10 @@ nav ul {
   padding-left: 0;
   flex-direction: row;
 }
+a {
+  text-decoration: none;
+  color: #000000;
+}
 nav ul li {
   display: inline-block;
   padding-left: 10px;
@@ -22,7 +26,7 @@ nav li:first-child {
   border-left: none;
 }
 nav li a:hover {
-  color: #f82d09;
+  color: #ffffff;
 }
 body {
   font-family: helvetica, Arial, sans-serif;
@@ -108,4 +112,7 @@ iframe {
 }
 .design-hyperlink {
   color: #fff;
+}
+nav {
+  background-color: #d58b53;
 }
