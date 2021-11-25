@@ -80,38 +80,18 @@ iframe {
   display: block;
   margin: 0px, auto; */
 }
-.computing-image {
-  margin-left: auto;
-  width: 45%;
+.column {
+  float: left;
+  width: 100%;
+  padding: 5px;
 }
-.computing-courses {
-  position: absolute;
-  bottom: 8px;
-  left: 14px;
-  font-size: 40px;
-  font-weight: bold;
+.row ::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-.text-hyperlink {
-  color: #fff;
-}
-.Computing-Detail {
-  position: relative;
-  color: #000;
-}
-.Design-Image {
-  width: 45%;
-  margin-left: 650px;
-  margin-top: -950px;
-}
-.design-courses {
-  position: absolute;
-  top: 940px;
-  right: 260px;
-  font-size: 40px;
-  font-weight: bold;
-}
-.design-hyperlink {
-  color: #fff;
+.row {
+  display: flex;
 }
 nav {
   background-color: #d58b53;
@@ -248,4 +228,34 @@ form .category {
 .email-cntr {
   color: #ff0000;
   text-decoration: underline;
+}
+.Computer-Course {
+  position: absolute;
+  margin-top: -65px;
+  left: 140px;
+  font-size: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.hyperlink-compu {
+  color: #fff;
+  text-decoration: underline;
+}
+.hyperlink-compu:hover {
+  color: #ff0000;
+}
+.Designcrs {
+  position: absolute;
+  margin-top: -65px;
+  margin-left: 140px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 38px;
+}
+.hyperlinkdesi {
+  color: #fff;
+  text-decoration: underline;
+}
+.hyperlinkdesi:hover {
+  color: #ff0000;
 }
