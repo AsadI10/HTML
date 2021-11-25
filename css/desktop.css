@@ -116,3 +116,9 @@ iframe {
 nav {
   background-color: #d58b53;
 }
+.email,
+.helpline,
+.enquiry,
+.business {
+  color: #ff0000;
+}
