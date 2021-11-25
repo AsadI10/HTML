@@ -79,11 +79,7 @@ iframe {
 }
 .computing-image {
   margin-left: auto;
-  width: 500px;
-}
-.Courses {
-  position: relative;
-  color: #000;
+  width: 45%;
 }
 .computing-courses {
   position: absolute;
@@ -93,5 +89,24 @@ iframe {
   font-weight: bold;
 }
 .text-hyperlink {
+  color: #fff;
+}
+.Computing-Detail {
+  position: relative;
+  color: #000;
+}
+.Design-Image {
+  width: 45%;
+  margin-left: 650px;
+  margin-top: -950px;
+}
+.design-courses {
+  position: absolute;
+  top: 940px;
+  right: 260px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.design-hyperlink {
   color: #fff;
 }
