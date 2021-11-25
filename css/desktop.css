@@ -121,6 +121,7 @@ nav {
 .enquiry,
 .business {
   color: #ff0000;
+  text-decoration: underline;
 }
 .container .title {
   font-size: 25px;
