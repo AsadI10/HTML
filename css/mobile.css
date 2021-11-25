@@ -1,3 +1,7 @@
 .container {
   width: 100%;
 }
+header,
+.container {
+  width: 0 15px;
+}
