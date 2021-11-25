@@ -23,7 +23,6 @@ nav li:first-child {
 }
 nav li a:hover {
   color: #f82d09;
-  text-decoration: underline;
 }
 body {
   font-family: helvetica, Arial, sans-serif;
