@@ -382,3 +382,14 @@ form .signup-link a:hover {
 .sign-up:hover {
   color: #71b7e6;
 }
+.login-user {
+  margin-left: 480px;
+}
+.hypelogin {
+  color: #0026ff;
+  text-decoration: none;
+}
+.hypelogin:hover {
+  text-decoration: underline;
+  color: #ff0000;
+}
