@@ -404,3 +404,14 @@ form .signup-link a:hover {
   color: #ff0000;
   text-decoration: underline;
 }
+footer {
+  text-align: center;
+  display: block;
+  border-top-style: solid;
+}
+.copy {
+  margin-top: 5px;
+  font-size: 0.8em;
+  text-align: center;
+  font-style: italic;
+}
