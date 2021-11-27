@@ -393,3 +393,14 @@ form .signup-link a:hover {
   text-decoration: underline;
   color: #ff0000;
 }
+.back {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.backlink {
+  color: #0026ff;
+}
+.backlink:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
