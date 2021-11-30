@@ -5,12 +5,11 @@ body {
   padding: 0;
   color: #000;
 }
-header {
-  background-image: url(../website-images-assets/Cantor\ atrium\ 3.jpg);
-  height: 150px;
+.container {
+  width: 100%;
 }
-header,
 .content,
 footer {
   padding: 0 15px;
 }
+
