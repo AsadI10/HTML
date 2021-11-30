@@ -1,0 +1,16 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+header {
+  background-image: url(../website-images-assets/Cantor\ atrium\ 3.jpg);
+  height: 150px;
+}
+header,
+.content,
+footer {
+  padding: 0 15px;
+}
