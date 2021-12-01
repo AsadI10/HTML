@@ -428,3 +428,6 @@ footer {
 /* .content {
   display: flex;
 } */
+.back {
+  margin-left: -20px;
+}
