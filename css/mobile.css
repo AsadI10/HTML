@@ -1,14 +1,207 @@
-body {
-  font-family: helvetica, arial, sans-serif;
-  font-size: 1em;
-  margin: 0;
-  padding: 0;
-  color: #000;
+.img-logo {
+  width: 100px;
+  margin-left: -15px;
 }
-.container {
-  width: 100%;
+header {
+  background-image: url("../website-images-assets/Cantor\ atrium\ 3.jpg");
+  height: 150px;
+  background-size: cover;
 }
+header,
 .content,
 footer {
   padding: 0 15px;
+}
+footer {
+  text-align: center;
+  display: block;
+  border-top-style: solid;
+}
+.copy {
+  margin-top: 5px;
+  font-size: 0.8em;
+  text-align: center;
+  font-style: italic;
+}
+/* .login {
+  margin-left: 150px;
+} */
+nav li a:hover {
+  color: #ffffff;
+}
+nav ul li {
+  border: none;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  /* padding-left: 0; */
+  /* margin: 0; */
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  background-color: #d58b53;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+nav ul li {
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+}
+.top {
+  background: none;
+  position: absolute;
+  top: -4px;
+  right: 29px;
+}
+.login {
+  font-weight: bold;
+  font-size: 20px;
+  color: #eb0f0f;
+  position: absolute;
+}
+.Designcrs {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 90px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 38px;
+}
+.hyperlinkdesi {
+  color: #fff;
+  text-decoration: underline;
+}
+.hyperlinkdesi:hover {
+  color: #ff0000;
+}
+.Computer-Course {
+  position: absolute;
+  margin-top: -100px;
+  left: 90px;
+  font-size: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.hyperlink-compu {
+  color: #fff;
+  text-decoration: underline;
+}
+.hyperlink-compu:hover {
+  color: #ff0000;
+}
+
+.content form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box span.details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input {
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+  border-color: #71b7e6;
+}
+form .gender-details .gender-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+form .category {
+  display: flex;
+  width: 80%;
+  margin: 14px 0;
+  justify-content: space-between;
+}
+form .category label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+form .category label .dot {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+#dot-1:checked,
+.category label .one,
+#dot-2:checked,
+.category label .two,
+#dot-3:checked,
+.category label .three {
+  background: #71b7e6;
+  border-color: #d9d9d9;
+}
+form input[type="radio"] {
+  display: none;
+}
+form .button {
+  height: 45px;
+  margin: 35px 0;
+}
+form .button input {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #71b7e6;
+}
+form .button input:hover {
+  background: #71b7e6;
+}
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: 100%;
+}
+form .category {
+  width: 100%;
+}
+.content form .user-details {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.user-details::-webkit-scrollbar {
+  width: 5px;
+}
+.hypelogin {
+  color: #0026ff;
+  text-decoration: none;
+}
+.login-user {
+  font-size: 20px;
+  text-align: center;
+}
+.title {
+  font-size: 30px;
 }

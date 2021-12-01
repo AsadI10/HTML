@@ -5,6 +5,7 @@
 }
 .img-logo {
   width: 100px;
+  margin-left: -15px;
 }
 nav ul {
   padding-left: 0;
@@ -231,8 +232,8 @@ form .category {
 }
 .Computer-Course {
   position: absolute;
-  margin-top: -65px;
-  left: 140px;
+  margin-top: -60px;
+  left: 110px;
   font-size: 38px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -263,12 +264,13 @@ form .category {
   background: none;
   position: absolute;
   top: -4px;
-  right: 25px;
+  right: 47px;
 }
 .login {
   font-weight: bold;
   font-size: 20px;
-  color: #000000;
+  color: #eb0f0f;
+  position: absolute;
 }
 
 .wrapper {
