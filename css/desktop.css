@@ -172,15 +172,6 @@ form .category label .dot {
   border: 5px solid transparent;
   transition: all 0.3s ease;
 }
-#dot-1:checked,
-.category label .one,
-#dot-2:checked,
-.category label .two,
-#dot-3:checked,
-.category label .three {
-  background: #71b7e6;
-  border-color: #d9d9d9;
-}
 form input[type="radio"] {
   display: none;
 }
@@ -430,4 +421,10 @@ footer {
 } */
 .back {
   margin-left: -20px;
+}
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three {
+  background: #e74f09;
+  border-color: #d9d9d9;
 }
