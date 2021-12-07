@@ -179,7 +179,7 @@ form .button {
   height: 45px;
   margin: 35px 0;
 }
-form .button input {
+button {
   height: 100%;
   width: 100%;
   border-radius: 5px;
