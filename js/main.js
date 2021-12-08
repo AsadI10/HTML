@@ -1,3 +1,3 @@
-// function myFunction() {
-//     alert("Thanks for registering your account");
-//   }
+function myFunction() {
+    alert("Thanks for registering your account");
+  }
