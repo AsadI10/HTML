@@ -1,7 +1,3 @@
-$(document).ready(function(){
-    $("#lightslider").lightslider({
-        item: 2,
-        slideMargin: 0,
-        loop: true,
-        });
-})
+// function myFunction() {
+//     alert("Thanks for registering your account");
+//   }
