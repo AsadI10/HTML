@@ -434,3 +434,9 @@ footer {
   margin-right: auto;
   display: block;
 }
+.News {
+  width: 500px;
+}
+.text-image {
+  padding-top: 20px;
+}
