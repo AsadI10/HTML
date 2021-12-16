@@ -352,3 +352,11 @@ iframe {
 .contpswd {
   position: relative;
 }
+th {
+  text-transform: uppercase;
+  border-bottom: 4px solid #000;
+  background-color: #fff;
+}
+tr:nth-child(odd) {
+  background-color: #ccc;
+}
