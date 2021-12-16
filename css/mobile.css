@@ -173,7 +173,7 @@ button {
   letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.3s ease;
-  background: #71b7e6;
+  background: #000000;
 }
 form .button input:hover {
   background: #71b7e6;
