@@ -1,12 +1,11 @@
 function myFunction() {
     alert("Thanks for registering your account");
   }
-  // $(".slidecontainer").slidecontainer({
-  //   item: 1,
-  //   slideMargin: 0,
-  //   loop: true,
-  //   });
-  // $(".main").click(function(){
-  //   // console.info("I was clicked!")
-  //   $(".main").slideToggle("fast")
-  //  })
+  function myFunction() {
+    var x = document.getElementById("myPswrd");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }

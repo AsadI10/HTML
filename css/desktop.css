@@ -190,7 +190,7 @@ button {
   letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.3s ease;
-  background: #71b7e6;
+  background: #000000;
 }
 form .button input:hover {
   background: #71b7e6;
@@ -278,7 +278,7 @@ form .category {
   color: #fff;
   user-select: none;
   border-radius: 15px 15px 0 0;
-  background: #71b7e6;
+  background: #000000;
 }
 .wrapper form {
   padding: 10px 30px 50px 30px;
@@ -351,7 +351,7 @@ form .field input[type="submit"] {
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
-  background: #71b7e6;
+  background: #000000;
   transition: all 0.3s ease;
 }
 form .field input[type="submit"]:active {
@@ -433,4 +433,7 @@ footer {
 }
 .text-image {
   padding-top: 20px;
+}
+.contpswd {
+  position: relative;
 }
