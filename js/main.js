@@ -17,7 +17,7 @@ var imageAr = ['website-images-assets/IMG_1005.jpeg',
 console.dir(imageAr)
 
 chgImage();
-setInterval(chgImage, 1000)
+setInterval(chgImage, 2000)
 var imgCounter = 0;
 function chgImage()
 {
