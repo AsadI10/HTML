@@ -461,3 +461,8 @@ tr:nth-child(odd) {
   margin-right: auto;
   display: block;
 }
+.imagetxt {
+  font-style: italic;
+  text-align: center;
+  font-size: 13px;
+}
