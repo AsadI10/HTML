@@ -363,3 +363,8 @@ tr:nth-child(odd) {
 #slide {
   width: 100%;
 }
+.imagetxt {
+  font-style: italic;
+  text-align: center;
+  font-size: 13px;
+}
