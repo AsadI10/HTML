@@ -10,23 +10,23 @@ function myFunction() {
   function myFunction() {
     alert("Thanks for registering your account");
   }
-var imageAr = ['website-images-assets/IMG_1005.jpeg',
-'website-images-assets/cantor-gallery.jpg',
-'website-images-assets/IMG_1439.jpeg' ]
+// var imageAr = ['website-images-assets/IMG_1005.jpeg',
+// 'website-images-assets/cantor-gallery.jpg',
+// 'website-images-assets/IMG_1439.jpeg' ]
 
-console.dir(imageAr)
+// console.dir(imageAr)
 
-chgImage();
-setInterval(chgImage, 2000)
-var imgCounter = 0;
-function chgImage()
-{
-  document.getElementById("slide").setAttribute("src", imageAr[imgCounter]);
-  imgCounter++;
-  if (imgCounter === imageAr.length)
-  {
-    imgCounter = 0;
-  }
-}
+// chgImage();
+// setInterval(chgImage, 20)
+// var imgCounter = 0;
+// function chgImage()
+// {
+//   document.getElementById("slide").setAttribute("src", imageAr[imgCounter]);
+//   imgCounter++;
+//   if (imgCounter === imageAr.length)
+//   {
+//     imgCounter = 0;
+//   }
+// }
 
 })()
