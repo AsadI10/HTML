@@ -455,3 +455,9 @@ th {
 tr:nth-child(odd) {
   background-color: #ccc;
 }
+.slide {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
