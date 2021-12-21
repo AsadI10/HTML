@@ -368,3 +368,14 @@ tr:nth-child(odd) {
   text-align: center;
   font-size: 13px;
 }
+.layout {
+  width: 100%;
+}
+.Center {
+  position: absolute;
+  margin-top: -125px;
+  margin-left: 18px;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
