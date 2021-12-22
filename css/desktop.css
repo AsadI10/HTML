@@ -484,3 +484,34 @@ tr:nth-child(odd) {
   color: #ffffff;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+.Loft {
+  color: #ffffff;
+}
+.Live {
+  margin-left: 100px;
+  position: absolute;
+  margin-top: -80px;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Loft:hover {
+  color: #0400ff;
+  text-decoration: underline;
+}
+.Create {
+  margin-left: 100px;
+  position: absolute;
+  margin-top: -80px;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Shot {
+  color: #ffffff;
+}
+.Shot:hover {
+  color: #0400ff;
+  text-decoration: underline;
+}
+.Image {
+  width: 89%;
+}
