@@ -401,6 +401,7 @@ footer {
   text-align: center;
   display: block;
   border-top-style: solid;
+  position: static;
 }
 .copy {
   margin-top: 5px;
@@ -446,6 +447,7 @@ th,
 td {
   padding: 10px 4px;
   text-align: left;
+  border: 1px solid #cccccc;
 }
 th {
   text-transform: uppercase;

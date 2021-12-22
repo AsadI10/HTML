@@ -379,3 +379,7 @@ tr:nth-child(odd) {
   color: #ffffff;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+th,
+td {
+  border: 1px solid #cccccc;
+}
