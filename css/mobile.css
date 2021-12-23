@@ -368,7 +368,7 @@ tr:nth-child(odd) {
   text-align: center;
   font-size: 13px;
 }
-.layout {
+/* .layout {
   width: 100%;
 }
 .Center {
@@ -378,7 +378,7 @@ tr:nth-child(odd) {
   font-size: 30px;
   color: #ffffff;
   font-family: Georgia, "Times New Roman", Times, serif;
-}
+} */
 th,
 td {
   border: 1px solid #cccccc;
