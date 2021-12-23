@@ -1,3 +1,6 @@
+function myFnction() {
+  alert("Thanks for registering your account");
+}
 var imageAr = ['website-images-assets/IMG_1005.jpeg',
 'website-images-assets/cantor-gallery.jpg',
 'website-images-assets/IMG_1439.jpeg' ]
@@ -17,13 +20,10 @@ function chgImage()
   }
 }
 function myFunction() {
-  var x = document.getElementById("myPswrd");
-  if (x.type === "password") {
-    x.type = "text";
-  } else {
-    x.type = "password";
+    var x = document.getElementById("myPswrd");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
   }
-}
-function myFunction() {
-  alert("Thanks for registering your account");
-}
