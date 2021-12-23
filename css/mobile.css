@@ -373,9 +373,9 @@ tr:nth-child(odd) {
 }
 .Center {
   position: absolute;
-  margin-top: -125px;
+  margin-top: -150px;
   margin-left: 18px;
-  font-size: 20px;
+  font-size: 30px;
   color: #ffffff;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -387,7 +387,7 @@ td {
   color: #ffffff;
 }
 .Live {
-  margin-left: 40px;
+  margin-left: 60px;
   position: absolute;
   margin-top: -50px;
   font-size: 30px;
@@ -398,7 +398,7 @@ td {
   text-decoration: underline;
 }
 .Create {
-  margin-left: 40px;
+  margin-left: 60px;
   position: absolute;
   margin-top: -50px;
   font-size: 30px;
