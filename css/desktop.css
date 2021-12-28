@@ -468,14 +468,6 @@ tr:nth-child(odd) {
   text-align: center;
   font-size: 13px;
 }
-/* .Open {
-  margin-top: 30px;
-  position: relative;
-  text-align: center;
-}
-.layout {
-  width: 75%;
-} */
 .Center {
   position: absolute;
   margin-top: -360px;

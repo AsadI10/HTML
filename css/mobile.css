@@ -369,17 +369,6 @@ tr:nth-child(odd) {
   text-align: center;
   font-size: 13px;
 }
-/* .layout {
-  width: 100%;
-}
-.Center {
-  position: absolute;
-  margin-top: -150px;
-  margin-left: 18px;
-  font-size: 30px;
-  color: #ffffff;
-  font-family: Georgia, "Times New Roman", Times, serif;
-} */
 th,
 td {
   border: 1px solid #cccccc;
