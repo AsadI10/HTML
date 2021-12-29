@@ -1,4 +1,4 @@
-function myFnction() {
+function myFun() {
   alert("Thanks for registering your account");
 }
 var imageAr = ['website-images-assets/IMG_1005.jpeg',
@@ -27,6 +27,6 @@ function myFunction() {
       x.type = "password";
     }
   }
-  function myfnction(){
+  function init(){
     alert("Thanks for filling the form, we will get back to you!")
   }
