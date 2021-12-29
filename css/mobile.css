@@ -449,3 +449,6 @@ td {
   font-weight: bold;
   text-align: center;
 }
+.shorttxt {
+  border-bottom: 1.5px solid #f5deb3;
+}
