@@ -591,3 +591,18 @@ tr:nth-child(odd) {
   color: #ffffff;
   border-radius: 50%;
 }
+.mapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+.mptxt {
+  margin-left: 380px;
+  font-size: 20px;
+  color: #ba0046;
+  text-decoration: underline;
+}
+.mptxt:hover {
+  color: #000;
+}
