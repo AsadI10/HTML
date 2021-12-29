@@ -537,7 +537,7 @@ tr:nth-child(odd) {
   border-radius: 5px;
   border: 0;
   cursor: pointer;
-  color: white;
+  color: #ffffff;
   font-size: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -557,5 +557,5 @@ tr:nth-child(odd) {
   text-align: center;
 }
 .shorttxt {
-  border-bottom: 1.5px solid #f5deb3;
+  border-bottom: 1px solid #bb9d66;
 }
