@@ -1,9 +1,9 @@
 function myFun() {
   alert("Thanks for registering your account");
 }
-var imageAr = ['website-images-assets/IMG_1005.jpeg',
-'website-images-assets/cantor-gallery.jpg',
-'website-images-assets/IMG_1439.jpeg' ]
+var imageAr = ['website-images-assets/cantor-gallery.jpg',
+'website-images-assets/IMG_1318.jpeg',
+ 'website-images-assets/IMG_1005.jpeg' ]
 
 console.dir(imageAr)
 
