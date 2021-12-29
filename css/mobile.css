@@ -490,3 +490,9 @@ td {
   color: #ba0046;
   font-size: 20px;
 }
+.txtshow {
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 3px;
+}

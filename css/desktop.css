@@ -606,3 +606,9 @@ tr:nth-child(odd) {
 .mptxt:hover {
   color: #000;
 }
+.txtshow {
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
