@@ -450,9 +450,33 @@ td {
   text-align: center;
 }
 .shorttxt {
-  border-bottom: 1px solid #f5deb3;
-  cursor: pointer;
+  border-bottom: 1px solid #bb9d66;
 }
-.shorttxt:hover {
-  background-color: #0026ff;
+.fa-facebook {
+  background: #3b5998;
+  color: #ffffff;
+  /* margin-right: 850px; */
+  border-radius: 50%;
+}
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-twitter {
+  background: #55acee;
+  color: #ffffff;
+  border-radius: 50%;
+}
+.fa-instagram {
+  background: #125688;
+  color: #c94a4a;
+  border-radius: 50%;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: #ffffff;
+  border-radius: 50%;
 }

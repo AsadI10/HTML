@@ -27,3 +27,6 @@ function myFunction() {
       x.type = "password";
     }
   }
+  function myfnction(){
+    alert("Thanks for filling the form, we will get back to you!")
+  }
