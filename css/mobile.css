@@ -348,9 +348,6 @@ iframe {
   display: block;
   width: 100%;
 }
-.News {
-  width: 100%;
-}
 .contpswd {
   position: relative;
 }
@@ -496,4 +493,15 @@ td {
   font-size: 12px;
   text-align: center;
   margin-top: 3px;
+}
+.short {
+  font-size: 20.8px;
+  font-weight: bold;
+  border-bottom: 1px solid #bb9d66;
+}
+.change {
+  margin-top: -15px;
+}
+.short:hover {
+  background-color: #0026ff;
 }

@@ -429,12 +429,6 @@ footer {
   background: #e74f09;
   border-color: #d9d9d9;
 }
-.News {
-  width: 500px;
-}
-.text-image {
-  padding-top: 20px;
-}
 .contpswd {
   position: relative;
 }
@@ -611,4 +605,16 @@ tr:nth-child(odd) {
   font-size: 12px;
   text-align: center;
   margin-top: 5px;
+}
+.short {
+  font-size: 20.8px;
+  font-weight: bold;
+  border-bottom: 1px solid #bb9d66;
+  cursor: pointer;
+}
+.change {
+  margin-top: -15px;
+}
+.short:hover {
+  background-color: #0026ff;
 }
