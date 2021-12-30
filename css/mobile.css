@@ -337,6 +337,7 @@ form .signup-link a:hover {
 }
 .back {
   text-align: center;
+  margin-top: 5px;
 }
 .backlink {
   color: #0026ff;
