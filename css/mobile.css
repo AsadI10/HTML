@@ -505,3 +505,6 @@ td {
 .short:hover {
   background-color: #0026ff;
 }
+th {
+  background-color: #929090;
+}
