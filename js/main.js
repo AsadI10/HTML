@@ -30,7 +30,7 @@ function myFunction() {
   function init(){
     alert("Thanks for filling the form, we will get back to you!")
   }
-  var slideIndex = 1;
+var slideIndex = 1;
 showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
