@@ -511,3 +511,49 @@ th {
 body {
   background-color: #ebe5e5;
 }
+.slideshowcontainer {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.Sliides {
+  display: none;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  left: 220px;
+  font-size: 15px;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+.hey {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
