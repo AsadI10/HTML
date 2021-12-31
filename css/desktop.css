@@ -624,3 +624,6 @@ th {
 body {
   background-color: #ebe5e5;
 }
+.business:hover {
+  color: #007bb5;
+}
