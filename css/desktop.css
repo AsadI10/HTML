@@ -451,17 +451,6 @@ th {
 tr:nth-child(odd) {
   background-color: #ccc;
 }
-#slide {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-.imagetxt {
-  font-style: italic;
-  text-align: center;
-  font-size: 13px;
-}
 .Center {
   position: absolute;
   margin-top: -360px;

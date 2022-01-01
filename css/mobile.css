@@ -359,14 +359,6 @@ th {
 tr:nth-child(odd) {
   background-color: #ccc;
 }
-#slide {
-  width: 100%;
-}
-.imagetxt {
-  font-style: italic;
-  text-align: center;
-  font-size: 13px;
-}
 th,
 td {
   border: 1px solid #cccccc;
