@@ -691,3 +691,10 @@ body {
 .staffa:hover {
   color: #007bb5;
 }
+.acc {
+  border-bottom: 1px solid #bb9d66;
+  cursor: pointer;
+}
+.acc:hover {
+  background-color: #0026ff;
+}
