@@ -696,3 +696,10 @@ body {
 .acc:hover {
   background-color: #0026ff;
 }
+#Open {
+  text-align: center;
+  cursor: pointer;
+}
+#Open:hover {
+  background-color: #0026ff;
+}

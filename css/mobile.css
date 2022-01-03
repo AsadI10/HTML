@@ -425,7 +425,6 @@ td {
   background: #cc6666;
   border-radius: 5px;
   border: 0;
-  cursor: pointer;
   color: #ffffff;
   font-size: 24px;
   padding-top: 10px;
@@ -537,7 +536,6 @@ body {
 }
 .prev,
 .next {
-  cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
@@ -554,7 +552,6 @@ body {
   right: 0;
 }
 .dot {
-  cursor: pointer;
   height: 15px;
   width: 15px;
   margin: 0 2px;
@@ -576,4 +573,7 @@ body {
 }
 .acc {
   border-bottom: 1px solid #bb9d66;
+}
+#Open {
+  text-align: center;
 }
