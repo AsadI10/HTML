@@ -463,8 +463,7 @@ tr:nth-child(odd) {
   color: #ffffff;
 }
 .Live {
-  margin-left: 100px;
-  position: absolute;
+  text-align: center;
   margin-top: -80px;
   font-size: 45px;
   font-family: Arial, Helvetica, sans-serif;
@@ -474,8 +473,7 @@ tr:nth-child(odd) {
   text-decoration: underline;
 }
 .Create {
-  margin-left: 100px;
-  position: absolute;
+  text-align: center;
   margin-top: -80px;
   font-size: 45px;
   font-family: Arial, Helvetica, sans-serif;
