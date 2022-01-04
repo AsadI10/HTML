@@ -53,3 +53,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+function LoginInfo(){
+  alert("We have run into a problem, Login page will be available soon!!!")
+}
