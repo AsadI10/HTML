@@ -263,7 +263,6 @@ form .category {
   color: #eb0f0f;
   position: absolute;
 }
-
 .wrapper {
   width: auto;
   background: #fff;
@@ -303,7 +302,7 @@ form .category {
   position: absolute;
   top: 50%;
   left: 20px;
-  color: #999999;
+  color: #0f0f0f;
   font-weight: 400;
   font-size: 17px;
   pointer-events: none;
@@ -333,7 +332,7 @@ form .content .checkbox {
 form .content input {
   width: 15px;
   height: 15px;
-  background: red;
+  background: #ff0000;
 }
 form .content label {
   color: #262626;
