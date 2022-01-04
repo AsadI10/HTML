@@ -699,6 +699,7 @@ body {
 #Open {
   text-align: center;
   cursor: pointer;
+  text-shadow: 0 0 2px #ff0000;
 }
 #Open:hover {
   background-color: #0026ff;
