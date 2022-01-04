@@ -481,6 +481,8 @@ td {
 .mptxt {
   color: #ba0046;
   font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
 }
 .txtshow {
   font-style: italic;
