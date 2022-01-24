@@ -1,6 +1,7 @@
 function myFun() {
   alert("Thanks for registering your account");
   // location.replace("https://www.facebook.com/");
+  // location.href = "https://www.facebook.com/";
 }
 // var imageAr = ['website-images-assets/cantor-gallery.jpg',
 // 'website-images-assets/IMG_1318.jpeg',
