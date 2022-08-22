@@ -2,37 +2,44 @@
   width: 100px;
   margin-left: -15px;
 }
+
 header {
   background-image: url("../website-images-assets/Cantor\ atrium\ 3.jpg");
   height: 150px;
   background-size: cover;
 }
+
 header,
 .content,
 footer {
   padding: 0 15px;
 }
+
 footer {
   text-align: center;
   display: block;
   border-top-style: solid;
 }
+
 .copy {
   margin-top: 5px;
   font-size: 0.8em;
   text-align: center;
   font-style: italic;
 }
+
 /* .login {
   margin-left: 150px;
 } */
 nav li a:hover {
   color: #ffffff;
 }
+
 nav ul li {
   border: none;
   font-weight: bold;
 }
+
 nav ul {
   list-style: none;
   /* padding-left: 0; */
@@ -40,30 +47,36 @@ nav ul {
   display: flex;
   flex-direction: column;
 }
+
 nav {
   background-color: #d58b53;
 }
+
 a {
   text-decoration: none;
   color: #000000;
 }
+
 nav ul li {
   border-bottom: 1px solid #ccc;
   padding: 5px;
   text-align: left;
 }
+
 .top {
   background: none;
   position: absolute;
   top: -4px;
   right: 29px;
 }
+
 .login {
   font-weight: bold;
   font-size: 20px;
   color: #eb0f0f;
   position: absolute;
 }
+
 .Designcrs {
   position: absolute;
   margin-top: -100px;
@@ -72,13 +85,16 @@ nav ul li {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 38px;
 }
+
 .hyperlinkdesi {
   color: #fff;
   text-decoration: underline;
 }
+
 .hyperlinkdesi:hover {
   color: #ff0000;
 }
+
 .Computer-Course {
   position: absolute;
   margin-top: -100px;
@@ -87,10 +103,12 @@ nav ul li {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
+
 .hyperlink-compu {
   color: #fff;
   text-decoration: underline;
 }
+
 .hyperlink-compu:hover {
   color: #ff0000;
 }
@@ -101,15 +119,18 @@ nav ul li {
   justify-content: space-between;
   margin: 20px 0 12px 0;
 }
+
 form .user-details .input-box {
   margin-bottom: 15px;
   width: calc(100% / 2 - 20px);
 }
+
 form .input-box span.details {
   display: block;
   font-weight: 500;
   margin-bottom: 5px;
 }
+
 .user-details .input-box input {
   height: 50px;
   width: 100%;
@@ -121,25 +142,30 @@ form .input-box span.details {
   border-bottom-width: 2px;
   transition: all 0.3s ease;
 }
+
 .user-details .input-box input:focus,
 .user-details .input-box input:valid {
   border-color: #71b7e6;
 }
+
 form .gender-details .gender-title {
   font-size: 20px;
   font-weight: 500;
 }
+
 form .category {
   display: flex;
   width: 80%;
   margin: 14px 0;
   justify-content: space-between;
 }
+
 form .category label {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
+
 form .category label .dot {
   height: 18px;
   width: 18px;
@@ -149,19 +175,23 @@ form .category label .dot {
   border: 5px solid transparent;
   transition: all 0.3s ease;
 }
-#dot-1:checked ~ .category label .one,
-#dot-2:checked ~ .category label .two,
-#dot-3:checked ~ .category label .three {
+
+#dot-1:checked~.category label .one,
+#dot-2:checked~.category label .two,
+#dot-3:checked~.category label .three {
   background: #e74f09;
   border-color: #d9d9d9;
 }
+
 form input[type="radio"] {
   display: none;
 }
+
 form .button {
   height: 45px;
   margin: 35px 0;
 }
+
 button {
   height: 100%;
   width: 100%;
@@ -175,39 +205,49 @@ button {
   transition: all 0.3s ease;
   background: #000000;
 }
+
 form .button input:hover {
   background: #71b7e6;
 }
+
 form .user-details .input-box {
   margin-bottom: 15px;
   width: 100%;
 }
+
 form .category {
   width: 100%;
 }
+
 .content form .user-details {
   max-height: 300px;
   overflow-y: scroll;
 }
+
 .user-details::-webkit-scrollbar {
   width: 5px;
 }
+
 .hypelogin {
   color: #0026ff;
   text-decoration: none;
 }
+
 .login-user {
   margin-top: -25px;
   font-size: 20px;
   text-align: center;
 }
+
 .title {
   font-size: 30px;
 }
+
 footer {
   margin-top: 80px;
   margin: 20px 10px 10px 0;
 }
+
 .email,
 .helpline,
 .enquiry,
@@ -215,18 +255,22 @@ footer {
   color: #2f00ff;
   text-decoration: underline;
 }
+
 .recruitment-c {
   color: #2f00ff;
   text-decoration: underline;
 }
+
 .sign-up {
   color: #2f00ff;
   text-decoration: underline;
 }
+
 .email-cntr {
   color: #2f00ff;
   text-decoration: underline;
 }
+
 .wrapper {
   width: 100%;
   background: #fff;
@@ -234,6 +278,7 @@ footer {
   box-shadow: 0px 15px 20px #0000001a;
   /* height: 630px; */
 }
+
 .wrapper .title {
   font-size: 35px;
   font-weight: 600;
@@ -244,15 +289,18 @@ footer {
   border-radius: 15px 15px 0 0;
   background: #000000;
 }
+
 .wrapper form {
   padding: 10px 30px 210px 30px;
 }
+
 .wrapper form .field {
   height: 50px;
   width: 100%;
   margin-top: 20px;
   position: relative;
 }
+
 .wrapper form .field input {
   height: 100%;
   width: 100%;
@@ -263,6 +311,7 @@ footer {
   border-radius: 25px;
   transition: all 0.3s ease;
 }
+
 .wrapper form .field label {
   position: absolute;
   top: 50%;
@@ -274,13 +323,15 @@ footer {
   transform: translateY(-50%);
   transition: all 0.3s ease;
 }
-form .field input:focus ~ label,
-form .field input:valid ~ label {
+
+form .field input:focus~label,
+form .field input:valid~label {
   top: 0%;
   font-size: 16px;
   background: #fff;
   transform: translateY(-50%);
 }
+
 form .content {
   display: flex;
   width: 100%;
@@ -289,24 +340,29 @@ form .content {
   align-items: center;
   justify-content: space-around;
 }
+
 form .content .checkbox {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 form .content input {
   width: 15px;
   height: 15px;
   background: #ff0000;
 }
+
 form .content label {
   color: #262626;
   user-select: none;
   padding-left: 5px;
 }
+
 form .content .pass-link {
   color: "";
 }
+
 form .field input[type="submit"] {
   color: #fff;
   border: none;
@@ -318,55 +374,68 @@ form .field input[type="submit"] {
   background: #000000;
   transition: all 0.3s ease;
 }
+
 form .field input[type="submit"]:active {
   transform: scale(0.95);
 }
+
 form .signup-link {
   color: #262626;
   margin-top: 20px;
   text-align: center;
 }
+
 form .pass-link a,
 form .signup-link a {
   color: #0026ff;
   text-decoration: none;
 }
+
 form .pass-link a:hover,
 form .signup-link a:hover {
   text-decoration: underline;
   color: #ff0000;
 }
+
 .back {
   text-align: center;
   margin-top: 5px;
 }
+
 .backlink {
   color: #0026ff;
 }
+
 iframe {
   margin-left: auto;
   margin-right: auto;
   display: block;
   width: 100%;
 }
+
 .contpswd {
   position: relative;
 }
+
 th {
   text-transform: uppercase;
   border-bottom: 4px solid #000;
   background-color: #fff;
 }
+
 tr:nth-child(odd) {
   background-color: #ccc;
 }
+
 th,
 td {
   border: 1px solid #cccccc;
 }
+
 .Loft {
   color: #ffffff;
 }
+
 .Live {
   /* margin-left: 45px;
   position: absolute; */
@@ -375,10 +444,12 @@ td {
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .Loft:hover {
   color: #0400ff;
   text-decoration: underline;
 }
+
 .Create {
   /* margin-left: 50px;
   position: absolute; */
@@ -387,19 +458,24 @@ td {
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .Shot {
   color: #ffffff;
 }
+
 .Shot:hover {
   color: #0400ff;
   text-decoration: underline;
 }
+
 .Image {
   width: 100%;
 }
+
 .FormBus {
   width: 100%;
 }
+
 .feedback-input {
   color: #000000;
   font-family: Helvetica, Arial, sans-serif;
@@ -416,9 +492,11 @@ td {
   box-sizing: border-box;
   outline: 0;
 }
+
 .feedback-input:focus {
   border: 2px solid #cc4949;
 }
+
 [type="submit"] {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   width: 100%;
@@ -433,23 +511,28 @@ td {
   margin-top: -4px;
   font-weight: 700;
 }
+
 .Busbtn {
   background-color: #cc4949;
 }
+
 .titlebus {
   font-size: 27px;
   font-weight: bold;
   text-align: center;
 }
+
 .shorttxt {
   border-bottom: 1px solid #bb9d66;
 }
+
 .fa-facebook {
   background: #3b5998;
   color: #ffffff;
   /* margin-right: 850px; */
   border-radius: 50%;
 }
+
 .fa {
   padding: 15px;
   font-size: 25px;
@@ -457,65 +540,79 @@ td {
   text-align: center;
   text-decoration: none;
 }
+
 .fa-twitter {
   background: #55acee;
   color: #ffffff;
   border-radius: 50%;
 }
+
 .fa-instagram {
   background: #125688;
   color: #c94a4a;
   border-radius: 50%;
 }
+
 .fa-linkedin {
   background: #007bb5;
   color: #ffffff;
   border-radius: 50%;
 }
+
 .mapper {
   /* display: block;
   margin-left: auto;
   margin-right: auto; */
   width: 100%;
 }
+
 .mptxt {
   color: #ba0046;
   font-size: 20px;
   text-align: center;
   text-decoration: underline;
 }
+
 .txtshow {
   font-style: italic;
   font-size: 12px;
   text-align: center;
   margin-top: 3px;
 }
+
 .short {
   font-size: 20.8px;
   font-weight: bold;
   border-bottom: 1px solid #bb9d66;
 }
+
 .change {
   margin-top: -15px;
 }
+
 .short:hover {
   background-color: #0026ff;
 }
+
 th {
   background-color: #929090;
 }
+
 body {
   background-color: #ebe5e5;
 }
+
 /* image slider */
 .slideshowcontainer {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
+
 .Sliides {
   display: none;
 }
+
 .text {
   color: #f2f2f2;
   font-size: 17px;
@@ -527,6 +624,7 @@ body {
   font-weight: bold;
   font-style: italic;
 }
+
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -536,6 +634,7 @@ body {
   left: 0;
   font-size: 15px;
 }
+
 .prev,
 .next {
   position: absolute;
@@ -550,9 +649,11 @@ body {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
+
 .next {
   right: 0;
 }
+
 .dot {
   height: 15px;
   width: 15px;
@@ -562,20 +663,25 @@ body {
   display: inline-block;
   transition: 0.6s ease;
 }
+
 .active,
 .dot:hover {
   background-color: #717171;
 }
+
 .dots {
   text-align: center;
 }
+
 .staffa {
   color: #3516e4;
   text-decoration: underline;
 }
+
 .acc {
   border-bottom: 1px solid #bb9d66;
 }
+
 #Open {
   text-align: center;
   text-shadow: 0 0 2px #ff0000;
